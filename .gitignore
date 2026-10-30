@@ -1,0 +1,33 @@
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local credentials and editor/OS files
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Reproducible build intermediates (keep the report PDF and figure files)
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.xdv
+tmp/
+output/
+dist/

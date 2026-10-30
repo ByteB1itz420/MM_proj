@@ -1,0 +1,1138 @@
+{
+ "cases": {
+  "S1_300_B1_OC": {
+   "scenario": "S1",
+   "dt_s": 300,
+   "boundary_protocol": "B1",
+   "variant": "OC",
+   "N": 204,
+   "intersample_dt_s": null,
+   "best_start": "warm",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 9,
+   "best_time_s": 0.011926803999813274,
+   "J_d_best_kWh_e": 2537.607843795507,
+   "J_d_solver_kWh_e": 2537.607843795505,
+   "J_LB_certified_kWh_e": 2400.804444311234,
+   "J_LP_primal_kWh_e": 2400.80444431124,
+   "LP_method": "highs-ipm",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "(HiGHS Status 0: Not Set)",
+     false
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2537.607843795507,
+     true,
+     0.011926803999813274
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2538.814887680057,
+     true,
+     0.012923636997584254
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2537.607843795507,
+     true,
+     0.016953574999206467
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2538.814887680057,
+     true,
+     0.012560887000290677
+    ]
+   ],
+   "warm_start": "PI sequence is NOT feasible for this problem, so the warm start is the feasible point nearest to the PI commands (L1 LP, HiGHS [highs (default)], sum|u - u_PI| = 0.021 MW)",
+   "pi_feasible_for_problem": false,
+   "J_d_PI_kWh_e": 2755.6001523815853,
+   "replay_E_cool_5s_kWh_e": 2539.000989613155,
+   "replay_status": "completed"
+  },
+  "S1_300_B2_OC": {
+   "scenario": "S1",
+   "dt_s": 300,
+   "boundary_protocol": "B2",
+   "variant": "OC",
+   "N": 204,
+   "intersample_dt_s": null,
+   "best_start": "seed2",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 20,
+   "best_time_s": 0.011374617999535985,
+   "J_d_best_kWh_e": 2534.9953649628906,
+   "J_d_solver_kWh_e": 2534.995364962888,
+   "J_LB_certified_kWh_e": 2400.6218039040223,
+   "J_LP_primal_kWh_e": 2400.621803904029,
+   "LP_method": "highs (default)",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2534.995364962891,
+     true,
+     0.005370734001189703
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2534.995364962891,
+     true,
+     0.012345605002337834
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2534.9953649628906,
+     true,
+     0.011374617999535985
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2534.995364962891,
+     true,
+     0.022417055999540025
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 2655.6098648246784,
+   "replay_E_cool_5s_kWh_e": 2535.457012513968,
+   "replay_status": "completed"
+  },
+  "S2c_300_B1_OC": {
+   "scenario": "S2c",
+   "dt_s": 300,
+   "boundary_protocol": "B1",
+   "variant": "OC",
+   "N": 204,
+   "intersample_dt_s": null,
+   "best_start": "warm",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 8,
+   "best_time_s": 0.005713877999369288,
+   "J_d_best_kWh_e": 2701.619259584015,
+   "J_d_solver_kWh_e": 2701.61925958402,
+   "J_LB_certified_kWh_e": 2695.054934746004,
+   "J_LP_primal_kWh_e": 2695.0549347460014,
+   "LP_method": "highs (default)",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2701.619259584015,
+     true,
+     0.005713877999369288
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2701.619259584015,
+     true,
+     0.01358477000030689
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2701.619259584015,
+     true,
+     0.009398376001627184
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2703.446314367009,
+     true,
+     0.01857642300092266
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 3069.444257665224,
+   "replay_E_cool_5s_kWh_e": 2702.659263445184,
+   "replay_status": "completed"
+  },
+  "S2c_300_B2_OC": {
+   "scenario": "S2c",
+   "dt_s": 300,
+   "boundary_protocol": "B2",
+   "variant": "OC",
+   "N": 204,
+   "intersample_dt_s": null,
+   "best_start": "warm",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 7,
+   "best_time_s": 0.004888725001364946,
+   "J_d_best_kWh_e": 2698.1279706218315,
+   "J_d_solver_kWh_e": 2698.1279706218365,
+   "J_LB_certified_kWh_e": 2694.872523312172,
+   "J_LP_primal_kWh_e": 2694.8725233121695,
+   "LP_method": "highs (default)",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2698.1279706218315,
+     true,
+     0.004888725001364946
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2698.1279706218315,
+     true,
+     0.006254644998989534
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2698.1279706218315,
+     true,
+     0.007527017998654628
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2698.127970621832,
+     true,
+     0.009168114000203786
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 2819.3040207414733,
+   "replay_E_cool_5s_kWh_e": 2698.2423012663726,
+   "replay_status": "completed"
+  },
+  "S1_300_B1_OC-ISC5": {
+   "scenario": "S1",
+   "dt_s": 300,
+   "boundary_protocol": "B1",
+   "variant": "OC-ISC5",
+   "N": 204,
+   "intersample_dt_s": 5.0,
+   "best_start": "warm",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 74,
+   "best_time_s": 7.984311006999633,
+   "J_d_best_kWh_e": 2538.4966813716524,
+   "J_d_solver_kWh_e": 2538.4966813716487,
+   "J_LB_certified_kWh_e": 2400.853130300388,
+   "J_LP_primal_kWh_e": 2400.8531303003942,
+   "LP_method": "highs-ds, no presolve",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "The HiGHS status code was not recognized. (HiGHS Status 15: model_status is Unknown; primal_status is Feasible)",
+     false
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2538.4966813716524,
+     true,
+     7.984311006999633
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2539.703725250786,
+     true,
+     15.480665167000552
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2538.496681371653,
+     true,
+     28.61571870699845
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2538.4966813716524,
+     true,
+     19.633435987001576
+    ]
+   ],
+   "warm_start": "PI sequence is NOT feasible for this problem, so the warm start is the feasible point nearest to the PI commands (L1 LP, HiGHS [highs-ipm], sum|u - u_PI| = 0.021 MW)",
+   "pi_feasible_for_problem": false,
+   "J_d_PI_kWh_e": 2755.6001523815853,
+   "replay_E_cool_5s_kWh_e": 2539.8702399794697,
+   "replay_status": "completed"
+  },
+  "S1_300_B2_OC-ISC5": {
+   "scenario": "S1",
+   "dt_s": 300,
+   "boundary_protocol": "B2",
+   "variant": "OC-ISC5",
+   "N": 204,
+   "intersample_dt_s": 5.0,
+   "best_start": "warm",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 61,
+   "best_time_s": 6.618565521999699,
+   "J_d_best_kWh_e": 2535.8841544714055,
+   "J_d_solver_kWh_e": 2535.884154471401,
+   "J_LB_certified_kWh_e": 2400.670488043488,
+   "J_LP_primal_kWh_e": 2400.670488043499,
+   "LP_method": "highs-ds, no presolve",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2535.8841544714055,
+     true,
+     6.618565521999699
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2535.884154471426,
+     true,
+     15.207794911999372
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2535.8841544714187,
+     true,
+     24.612181035001413
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2535.884154471426,
+     true,
+     13.329216373000236
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 2655.6098648246784,
+   "replay_E_cool_5s_kWh_e": 2536.3262348428307,
+   "replay_status": "completed"
+  },
+  "S2c_300_B1_OC-ISC5": {
+   "scenario": "S2c",
+   "dt_s": 300,
+   "boundary_protocol": "B1",
+   "variant": "OC-ISC5",
+   "N": 204,
+   "intersample_dt_s": 5.0,
+   "best_start": "seed1",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 76,
+   "best_time_s": 9.737120297999354,
+   "J_d_best_kWh_e": 2701.619260512211,
+   "J_d_solver_kWh_e": 2701.619260512214,
+   "J_LB_certified_kWh_e": 2695.054934746004,
+   "J_LP_primal_kWh_e": 2695.0549347460014,
+   "LP_method": "highs (default)",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2701.619260512212,
+     true,
+     3.9331117080000695
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2701.619260512211,
+     true,
+     9.737120297999354
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2701.619260512211,
+     true,
+     6.943038309000258
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2701.6192605122114,
+     true,
+     10.126091352998628
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 3069.444257665224,
+   "replay_E_cool_5s_kWh_e": 2702.6592643686868,
+   "replay_status": "completed"
+  },
+  "S2c_300_B2_OC-ISC5": {
+   "scenario": "S2c",
+   "dt_s": 300,
+   "boundary_protocol": "B2",
+   "variant": "OC-ISC5",
+   "N": 204,
+   "intersample_dt_s": 5.0,
+   "best_start": "warm",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 32,
+   "best_time_s": 3.4117965930017817,
+   "J_d_best_kWh_e": 2698.127971558529,
+   "J_d_solver_kWh_e": 2698.1279715585338,
+   "J_LB_certified_kWh_e": 2694.8725233121722,
+   "J_LP_primal_kWh_e": 2694.8725233121695,
+   "LP_method": "highs-ipm",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2698.127971558529,
+     true,
+     3.4117965930017817
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2698.1279715585297,
+     true,
+     6.910847051000019
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2698.1279715585297,
+     true,
+     5.792244733998814
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2698.1279715585297,
+     true,
+     9.186458982003387
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 2819.3040207414733,
+   "replay_E_cool_5s_kWh_e": 2698.242302201201,
+   "replay_status": "completed"
+  },
+  "S1_60_B1_OC": {
+   "scenario": "S1",
+   "dt_s": 60,
+   "boundary_protocol": "B1",
+   "variant": "OC",
+   "N": 1020,
+   "intersample_dt_s": null,
+   "best_start": "seed1",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 71,
+   "best_time_s": 0.26516164299755474,
+   "J_d_best_kWh_e": 2501.126249628387,
+   "J_d_solver_kWh_e": 2501.1262496284126,
+   "J_LB_certified_kWh_e": 2400.690870498017,
+   "J_LP_primal_kWh_e": 2400.690870498036,
+   "LP_method": "highs-ipm",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "(HiGHS Status 0: Not Set)",
+     false
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2501.7243079414875,
+     true,
+     0.6177008410013514
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2501.126249628387,
+     true,
+     0.26516164299755474
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2502.7247436318653,
+     true,
+     0.2511154869971506
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2513.8595485023393,
+     true,
+     0.3242061749988352
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 2756.409869026873,
+   "replay_E_cool_5s_kWh_e": 2556.9351407295185,
+   "replay_status": "completed"
+  },
+  "S1_60_B2_OC": {
+   "scenario": "S1",
+   "dt_s": 60,
+   "boundary_protocol": "B2",
+   "variant": "OC",
+   "N": 1020,
+   "intersample_dt_s": null,
+   "best_start": "seed2",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 53,
+   "best_time_s": 0.1668861329999345,
+   "J_d_best_kWh_e": 2500.1402713490434,
+   "J_d_solver_kWh_e": 2500.1402713490656,
+   "J_LB_certified_kWh_e": 2400.5817590618954,
+   "J_LP_primal_kWh_e": 2400.581759061915,
+   "LP_method": "highs (default)",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2500.8183382077827,
+     true,
+     0.5180297320002865
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2500.1565625654284,
+     true,
+     0.19604875499862828
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2500.1402713490434,
+     true,
+     0.1668861329999345
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2510.004666287566,
+     true,
+     0.24453556400112575
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 2656.227017466057,
+   "replay_E_cool_5s_kWh_e": 2554.918109232762,
+   "replay_status": "completed"
+  },
+  "S2c_60_B1_OC": {
+   "scenario": "S2c",
+   "dt_s": 60,
+   "boundary_protocol": "B1",
+   "variant": "OC",
+   "N": 1020,
+   "intersample_dt_s": null,
+   "best_start": "seed1",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 29,
+   "best_time_s": 0.09257119600079022,
+   "J_d_best_kWh_e": 2698.9265951601355,
+   "J_d_solver_kWh_e": 2698.92659516015,
+   "J_LB_certified_kWh_e": 2694.7528900476286,
+   "J_LP_primal_kWh_e": 2694.752890047582,
+   "LP_method": "highs (default)",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "(HiGHS Status 0: Not Set)",
+     false
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2698.926595160137,
+     true,
+     0.06696405800175853
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2698.9265951601355,
+     true,
+     0.09257119600079022
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2699.1110803874226,
+     true,
+     0.06216239399873302
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2699.659041655178,
+     true,
+     0.9842347800004063
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 3069.4478145338544,
+   "replay_E_cool_5s_kWh_e": 2701.325896007953,
+   "replay_status": "completed"
+  },
+  "S2c_60_B2_OC": {
+   "scenario": "S2c",
+   "dt_s": 60,
+   "boundary_protocol": "B2",
+   "variant": "OC",
+   "N": 1020,
+   "intersample_dt_s": null,
+   "best_start": "seed1",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 12,
+   "best_time_s": 0.028519645999040222,
+   "J_d_best_kWh_e": 2697.0805744290865,
+   "J_d_solver_kWh_e": 2697.080574429095,
+   "J_LB_certified_kWh_e": 2694.643820999648,
+   "J_LP_primal_kWh_e": 2694.643820999602,
+   "LP_method": "highs (default)",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2697.080574429087,
+     true,
+     0.07875205200252822
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2697.0805744290865,
+     true,
+     0.028519645999040222
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2697.0805744290865,
+     true,
+     0.03246738999951049
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2697.080574429087,
+     true,
+     0.18855639200046426
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 2819.307530372189,
+   "replay_E_cool_5s_kWh_e": 2697.5547063327367,
+   "replay_status": "completed"
+  },
+  "S1_60_B1_OC-ISC5": {
+   "scenario": "S1",
+   "dt_s": 60,
+   "boundary_protocol": "B1",
+   "variant": "OC-ISC5",
+   "N": 1020,
+   "intersample_dt_s": 5.0,
+   "best_start": "warm",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 422,
+   "best_time_s": 54.86765961200217,
+   "J_d_best_kWh_e": 2503.5894079062655,
+   "J_d_solver_kWh_e": 2503.5894079062377,
+   "J_LB_certified_kWh_e": 2400.6944304539147,
+   "J_LP_primal_kWh_e": 2400.694430453925,
+   "LP_method": "highs-ipm",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2503.5894079062655,
+     true,
+     54.86765961200217
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2511.1675300878196,
+     true,
+     19.69759646700186
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2512.060589449181,
+     true,
+     20.150093428997934
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2525.928424713197,
+     true,
+     34.346813714000746
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 2756.409869026873,
+   "replay_E_cool_5s_kWh_e": 2553.3312270434135,
+   "replay_status": "completed"
+  },
+  "S1_60_B2_OC-ISC5": {
+   "scenario": "S1",
+   "dt_s": 60,
+   "boundary_protocol": "B2",
+   "variant": "OC-ISC5",
+   "N": 1020,
+   "intersample_dt_s": 5.0,
+   "best_start": "warm",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 422,
+   "best_time_s": 55.51024280499769,
+   "J_d_best_kWh_e": 2502.5945535435285,
+   "J_d_solver_kWh_e": 2502.5945535435,
+   "J_LB_certified_kWh_e": 2400.585318880084,
+   "J_LP_primal_kWh_e": 2400.5853188801107,
+   "LP_method": "highs-ipm",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2502.5945535435285,
+     true,
+     55.51024280499769
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2504.4372994151445,
+     true,
+     19.1973604900013
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2506.2623908603423,
+     true,
+     19.55790252999941
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2517.459786324978,
+     true,
+     32.22525470900291
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 2656.227017466057,
+   "replay_E_cool_5s_kWh_e": 2550.363215919975,
+   "replay_status": "completed"
+  },
+  "S2c_60_B1_OC-ISC5": {
+   "scenario": "S2c",
+   "dt_s": 60,
+   "boundary_protocol": "B1",
+   "variant": "OC-ISC5",
+   "N": 1020,
+   "intersample_dt_s": 5.0,
+   "best_start": "warm",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 79,
+   "best_time_s": 9.429808722001326,
+   "J_d_best_kWh_e": 2699.069833514519,
+   "J_d_solver_kWh_e": 2699.0698335145025,
+   "J_LB_certified_kWh_e": 2694.752890047629,
+   "J_LP_primal_kWh_e": 2694.7528900475804,
+   "LP_method": "highs-ds, no presolve",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2699.069833514519,
+     true,
+     9.429808722001326
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2699.1183314804216,
+     true,
+     22.102265973000613
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2699.242412679774,
+     true,
+     35.74916427599965
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2700.398062624502,
+     true,
+     202.65106874000048
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 3069.4478145338544,
+   "replay_E_cool_5s_kWh_e": 2702.0300207982245,
+   "replay_status": "completed"
+  },
+  "S2c_60_B2_OC-ISC5": {
+   "scenario": "S2c",
+   "dt_s": 60,
+   "boundary_protocol": "B2",
+   "variant": "OC-ISC5",
+   "N": 1020,
+   "intersample_dt_s": 5.0,
+   "best_start": "warm",
+   "best_status": "Solve_Succeeded",
+   "best_iterations": 54,
+   "best_time_s": 5.934068523998576,
+   "J_d_best_kWh_e": 2697.0805753510167,
+   "J_d_solver_kWh_e": 2697.0805753510645,
+   "J_LB_certified_kWh_e": 2694.6438209996486,
+   "J_LP_primal_kWh_e": 2694.643820999602,
+   "LP_method": "highs-ipm",
+   "LP_attempts": [
+    [
+     "highs (default)",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ipm",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ],
+    [
+     "highs-ds, no presolve",
+     "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+     true
+    ]
+   ],
+   "starts": [
+    [
+     "warm",
+     "Solve_Succeeded",
+     2697.0805753510167,
+     true,
+     5.934068523998576
+    ],
+    [
+     "seed1",
+     "Solve_Succeeded",
+     2697.080575351018,
+     true,
+     10.144008472998394
+    ],
+    [
+     "seed2",
+     "Solve_Succeeded",
+     2697.080575351019,
+     true,
+     13.25907172100051
+    ],
+    [
+     "seed3",
+     "Solve_Succeeded",
+     2697.2238254040585,
+     true,
+     117.27898246899713
+    ]
+   ],
+   "warm_start": "matched PI sequence (feasible for this problem)",
+   "pi_feasible_for_problem": true,
+   "J_d_PI_kWh_e": 2819.307530372189,
+   "replay_E_cool_5s_kWh_e": 2697.5547072462123,
+   "replay_status": "completed"
+  }
+ },
+ "provenance": {
+  "created_utc": "2026-10-29T20:34:46+00:00",
+  "source_notebook": "notebook/04_perfect_foresight_benchmark.ipynb (code cells 1-7 executed unchanged)",
+  "python": "3.14.7",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "casadi": "3.8.2",
+  "platform": "Linux-7.2.3-arch1-3-x86_64-with-glibc2.44",
+  "tolerances": {
+   "TOL_FEAS_K": 1e-06,
+   "TOL_FEAS_W": 0.001,
+   "NLP_WALL_S": 300.0,
+   "NLP_MAX_ITER": 3000,
+   "SEEDS": [
+    1,
+    2,
+    3
+   ],
+   "PERTURB": 0.1,
+   "ISC_DT": 5.0,
+   "HORIZON_s": 61200.0
+  },
+  "units": {
+   "u_W": "W_th (command held on [t_k, t_k+dt))",
+   "x": "degC, columns [T_s, T_a] at t_k, k = 0..N",
+   "x_start": "degC [T_s, T_a]"
+  },
+  "source_cells_sha256": "aa3761e1a1d195f233f742cbd6b96432bcf412a3523ea296f5000e9496e9c7e2",
+  "crosscheck_vs_notebook04_printed": "all 16 cases identical to printed precision"
+ }
+}
